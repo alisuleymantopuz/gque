@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\gque.domain.infrastructure\gque.domain.infrastructure.csproj" />
+    <ProjectReference Include="..\gque.domain.managers\gque.domain.managers.csproj" />
+    <ProjectReference Include="..\gque.domain\gque.domain.csproj" />
+  </ItemGroup>
+
+</Project>

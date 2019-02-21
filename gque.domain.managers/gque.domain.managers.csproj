@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\gque.domain.infrastructure\gque.domain.infrastructure.csproj" />
+    <ProjectReference Include="..\gque.domain\gque.domain.csproj" />
+  </ItemGroup>
+
+</Project>
